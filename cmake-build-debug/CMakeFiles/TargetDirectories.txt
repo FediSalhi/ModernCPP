@@ -1,0 +1,3 @@
+/home/fedi/Desktop/ModernCPP/cmake-build-debug/CMakeFiles/ModernCPP.dir
+/home/fedi/Desktop/ModernCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fedi/Desktop/ModernCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
