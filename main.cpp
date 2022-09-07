@@ -11,11 +11,12 @@
 #include "Smart_Pointers.h"
 #include "Auto_Keyword.h"
 #include "Range_Based_For_Loops.h"
+#include "Structured_Binding.h"
 
 
 int main() {
 
-    //Smart Pointers
+    // Smart Pointers
     Smart_Pointers sp;
     sp.Unique_Pointers_Main();
     sp.Shared_Pointers_Main();
@@ -28,6 +29,10 @@ int main() {
     // Range Based For Loops
     Range_Based_For_Loops rbfl;
     rbfl.Range_Based_For_Loops_Main();
+
+    // Structured Binding
+    Structured_Binding sb;
+    sb.Structured_Binding_Main();
 
 
     return 0;
