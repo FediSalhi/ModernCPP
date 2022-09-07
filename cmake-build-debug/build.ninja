@@ -61,6 +61,12 @@ build CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o: CXX_COMPILER__ModernCPP_Deb
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
 
+build CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o: CXX_COMPILER__ModernCPP_Debug /home/fedi/Desktop/ModernCPP/Auto_Keyword.cpp || cmake_object_order_depends_target_ModernCPP
+  DEP_FILE = CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ModernCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ModernCPP
@@ -69,7 +75,7 @@ build CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o: CXX_COMPILER__ModernCPP_Deb
 #############################################
 # Link the executable ModernCPP
 
-build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o
+build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
   POST_BUILD = :

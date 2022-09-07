@@ -9,6 +9,8 @@
  *************************************************************************************/
 
 #include "Smart_Pointers.h"
+#include "Auto_Keyword.h"
+
 
 int main() {
 
@@ -17,6 +19,10 @@ int main() {
     sp.Unique_Pointers_Main();
     sp.Shared_Pointers_Main();
     sp.Weak_Pointers_Main();
+
+    // auto Keyword
+    Auto_Keyword ak;
+    ak.Auto_Keyword_Main();
 
     return 0;
 }
