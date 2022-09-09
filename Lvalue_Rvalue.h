@@ -16,6 +16,8 @@
 
 class Lvalue_Rvalue
 {
+public:
+    Lvalue_Rvalue(){};
     void Lvalue_Rvalue_Main();
     void Show_Combined_String_Call_By_Value(std::string string);
     void Show_Combined_String_Call_By_Reference(std::string& string);
