@@ -79,6 +79,12 @@ build CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o: CXX_COMPILER__ModernCPP
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
 
+build CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o: CXX_COMPILER__ModernCPP_Debug /home/fedi/Desktop/ModernCPP/Lvalue_Rvalue.cpp || cmake_object_order_depends_target_ModernCPP
+  DEP_FILE = CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ModernCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ModernCPP
@@ -87,7 +93,7 @@ build CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o: CXX_COMPILER__ModernCPP
 #############################################
 # Link the executable ModernCPP
 
-build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o CMakeFiles/ModernCPP.dir/Range_Based_For_Loops.cpp.o CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o
+build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o CMakeFiles/ModernCPP.dir/Range_Based_For_Loops.cpp.o CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
   POST_BUILD = :

@@ -12,6 +12,7 @@
 #include "Auto_Keyword.h"
 #include "Range_Based_For_Loops.h"
 #include "Structured_Binding.h"
+#include "Lvalue_Rvalue.h"
 
 
 int main() {
@@ -34,6 +35,8 @@ int main() {
     Structured_Binding sb;
     sb.Structured_Binding_Main();
 
+    // rvalue and lvalue
+    Lvalue_Rvalue();
 
     return 0;
 }
