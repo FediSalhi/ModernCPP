@@ -14,6 +14,7 @@
 #include "Structured_Binding.h"
 #include "Lvalue_Rvalue.h"
 #include "Initialization_In_Class_Declaration.h"
+#include "Move_Semantics.h"
 
 
 int main() {
@@ -43,6 +44,10 @@ int main() {
     // Initialization in class declaration
     Initialization_In_Class_Declaration init;
     init.Initialization_In_Class_Declaration_Main();
+
+    // Move Semantics
+    Move_Semantics ms;
+    ms.Move_Semantics_Main();
 
 
     return 0;
