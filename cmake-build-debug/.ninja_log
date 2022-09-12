@@ -2,10 +2,15 @@
 1502	1672	1663003607634444548	ModernCPP	83377b5f942ba3b1
 1	610	1662757351437735063	CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o	674efcbc1780dee8
 2	1501	1663003607418432064	CMakeFiles/ModernCPP.dir/main.cpp.o	9c21e282ed62a0ec
-0	41	1663008329433513091	build.ninja	14f91a6e2c837c56
+0	41	1663011558563144311	build.ninja	14f91a6e2c837c56
 2	785	1662576351141986819	CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o	fd71a9a0041376a5
 1	1579	1662753036902263952	CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o	fe0e445abf19ea4a
 6	1165	1663003607082412646	CMakeFiles/ModernCPP.dir/Move_Semantics.cpp.o	e154b6f930ce7948
 2	1030	1662495703989622590	CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o	78b9cd35886050ad
 2	1089	1662578357824620461	CMakeFiles/ModernCPP.dir/Range_Based_For_Loops.cpp.o	d2c76c6ddccaae25
 3	1334	1662757984301020015	CMakeFiles/ModernCPP.dir/Initialization_In_Class_Declaration.cpp.o	64752ac18896043b
+2	821	1663011733786605184	CMakeFiles/ModernCPP.dir/Move_Semantics.cpp.o	e154b6f930ce7948
+2	166	1663011745046564321	CMakeFiles/ModernCPP.dir/Final_Class.cpp.o	88ae4a437751188d
+2	544	1663011745462562799	CMakeFiles/ModernCPP.dir/Defaulted_Deleted.cpp.o	b76427f9657ed3eb
+1	734	1663011745650562111	CMakeFiles/ModernCPP.dir/main.cpp.o	9c21e282ed62a0ec
+734	915	1663011745834561437	ModernCPP	f3ec8ee9a95b1fe
