@@ -31,12 +31,22 @@ public:
     Data_Holder(const Data_Holder& dh)
     {
         std::cout << "Copy constructor is called" << std::endl;
-        data = dh.data;
+
+        if(dh.data != nullptr)
+        {
+            data = new int(*dh.data);
+        }
     }
     Data_Holder(Data_Holder&& dh)
     {
-        data = dh.data;
-        dh.data = nullptr;
+        std::cout << "Move constructor is called" << std::endl;
+
+        if(dh.data != nullptr)
+        {
+            data = dh.data;
+            dh.data = nullptr;
+        }
+
     }
     Data_Holder& operator=(const Data_Holder& dh)
     {
@@ -50,6 +60,7 @@ public:
         if(data != nullptr)
         {
             delete data;
+            data = nullptr;
         }
     }
 private:

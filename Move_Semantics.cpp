@@ -18,5 +18,4 @@ void Move_Semantics::Move_Semantics_Main()
     Data_Holder dh2(dh1);
 
     Data_Holder dh3 = std::move(dh1);
-
 }
