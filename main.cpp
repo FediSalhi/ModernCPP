@@ -15,6 +15,7 @@
 #include "Lvalue_Rvalue.h"
 #include "Initialization_In_Class_Declaration.h"
 #include "Move_Semantics.h"
+#include "Defaulted_Deleted.h"
 
 
 int main() {
@@ -47,10 +48,11 @@ int main() {
 
     // Move Semantics
     Move_Semantics ms;
-
-    //TODO: solve error
     ms.Move_Semantics_Main();
 
+    // Defaulted Deleted
+    Defaulted_Deleted dd ;
+    dd.Defaulted_Deleted_Main();
 
     return 0;
 }
