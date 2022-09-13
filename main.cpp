@@ -18,6 +18,7 @@
 #include "Defaulted_Deleted.h"
 #include "Override.h"
 #include "List_Initialization.h"
+#include "Threading.h"
 
 int main() {
 
@@ -60,6 +61,9 @@ int main() {
 
     List_Initialization li;
     li.List_Initialization_Main();
+
+    Threading T;
+    T.Threading_Main();
 
 
     return 0;
