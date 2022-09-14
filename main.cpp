@@ -19,6 +19,7 @@
 #include "Override.h"
 #include "List_Initialization.h"
 #include "Threading.h"
+#include "Lambda.h"
 
 int main() {
 
@@ -56,15 +57,21 @@ int main() {
     Defaulted_Deleted dd ;
     dd.Defaulted_Deleted_Main();
 
+    // Override
     Override o;
     o.Override_Main();
 
+    // List initialization
     List_Initialization li;
     li.List_Initialization_Main();
 
-    Threading T;
-    T.Threading_Main();
+    // Threading
+    Threading t;
+    t.Threading_Main();
 
+    // Lambda expression
+    Lambda lambda;
+    lambda.Lambda_Main();
 
     return 0;
 }

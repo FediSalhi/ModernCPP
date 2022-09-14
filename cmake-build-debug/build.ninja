@@ -127,6 +127,18 @@ build CMakeFiles/ModernCPP.dir/Threading.cpp.o: CXX_COMPILER__ModernCPP_Debug /h
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
 
+build CMakeFiles/ModernCPP.dir/Constexpr.cpp.o: CXX_COMPILER__ModernCPP_Debug /home/fedi/Desktop/ModernCPP/Constexpr.cpp || cmake_object_order_depends_target_ModernCPP
+  DEP_FILE = CMakeFiles/ModernCPP.dir/Constexpr.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ModernCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
+
+build CMakeFiles/ModernCPP.dir/Lambda.cpp.o: CXX_COMPILER__ModernCPP_Debug /home/fedi/Desktop/ModernCPP/Lambda.cpp || cmake_object_order_depends_target_ModernCPP
+  DEP_FILE = CMakeFiles/ModernCPP.dir/Lambda.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ModernCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/ModernCPP.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ModernCPP
@@ -135,7 +147,7 @@ build CMakeFiles/ModernCPP.dir/Threading.cpp.o: CXX_COMPILER__ModernCPP_Debug /h
 #############################################
 # Link the executable ModernCPP
 
-build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o CMakeFiles/ModernCPP.dir/Range_Based_For_Loops.cpp.o CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o CMakeFiles/ModernCPP.dir/Initialization_In_Class_Declaration.cpp.o CMakeFiles/ModernCPP.dir/Move_Semantics.cpp.o CMakeFiles/ModernCPP.dir/Defaulted_Deleted.cpp.o CMakeFiles/ModernCPP.dir/Final_Class.cpp.o CMakeFiles/ModernCPP.dir/Override.cpp.o CMakeFiles/ModernCPP.dir/List_Initialization.cpp.o CMakeFiles/ModernCPP.dir/Threading.cpp.o
+build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir/main.cpp.o CMakeFiles/ModernCPP.dir/Smart_Pointers.cpp.o CMakeFiles/ModernCPP.dir/Auto_Keyword.cpp.o CMakeFiles/ModernCPP.dir/Range_Based_For_Loops.cpp.o CMakeFiles/ModernCPP.dir/Structured_Binding.cpp.o CMakeFiles/ModernCPP.dir/Lvalue_Rvalue.cpp.o CMakeFiles/ModernCPP.dir/Initialization_In_Class_Declaration.cpp.o CMakeFiles/ModernCPP.dir/Move_Semantics.cpp.o CMakeFiles/ModernCPP.dir/Defaulted_Deleted.cpp.o CMakeFiles/ModernCPP.dir/Final_Class.cpp.o CMakeFiles/ModernCPP.dir/Override.cpp.o CMakeFiles/ModernCPP.dir/List_Initialization.cpp.o CMakeFiles/ModernCPP.dir/Threading.cpp.o CMakeFiles/ModernCPP.dir/Constexpr.cpp.o CMakeFiles/ModernCPP.dir/Lambda.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lpthread
   OBJECT_DIR = CMakeFiles/ModernCPP.dir
@@ -149,7 +161,7 @@ build ModernCPP: CXX_EXECUTABLE_LINKER__ModernCPP_Debug CMakeFiles/ModernCPP.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/fedi/Desktop/ModernCPP/cmake-build-debug && /snap/clion/204/bin/cmake/linux/bin/ccmake -S/home/fedi/Desktop/ModernCPP -B/home/fedi/Desktop/ModernCPP/cmake-build-debug
+  COMMAND = cd /home/fedi/Desktop/ModernCPP/cmake-build-debug && /snap/clion/205/bin/cmake/linux/bin/ccmake -S/home/fedi/Desktop/ModernCPP -B/home/fedi/Desktop/ModernCPP/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -161,7 +173,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/fedi/Desktop/ModernCPP/cmake-build-debug && /snap/clion/204/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/fedi/Desktop/ModernCPP -B/home/fedi/Desktop/ModernCPP/cmake-build-debug
+  COMMAND = cd /home/fedi/Desktop/ModernCPP/cmake-build-debug && /snap/clion/205/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/fedi/Desktop/ModernCPP -B/home/fedi/Desktop/ModernCPP/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -188,14 +200,14 @@ build all: phony ModernCPP
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /snap/clion/204/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /snap/clion/205/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
